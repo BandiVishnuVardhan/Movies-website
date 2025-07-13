@@ -1,0 +1,92 @@
+#BannerContainer {
+    height: 100vh;
+    width:100%;
+    background-image: url('./images/hero\ banners.png');
+    background-repeat: no-repeat;
+    background-size: 100%100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #030A1B;
+}
+body{
+    background: black;
+    padding: 0px;
+    margin:0px;
+}
+nav {
+    display: flex;
+    background-color: rgb(0,0,0,0.6);
+    padding: 0px;
+    margin: 0px;
+    height: 70px;
+    border-radius: 12px;
+    width: 85vw;
+    margin-left: 7%;
+    position: relative;
+    top:20px
+}
+nav ul {
+    color:white;
+    display: flex;
+    width: 40vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+li {
+    list-style-type: none;
+    cursor: pointer;
+}
+li:hover {
+    color:#228EE5;
+    text-decoration: underline;
+}
+#icons {
+    color:white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 18px;
+    width: 35vw;
+    gap:20px;
+    align-items: right;
+ 
+}
+#btns{
+
+    position: relative;
+    top:75%;
+    /* left:5%; */
+    margin-left: 68px;
+    margin-top: 2%;
+    /* height: 40px; */
+
+}
+button {
+    height: 40px;
+    width:170px;
+    background-color:#228EE5;
+    border: none;
+    border-radius: 20px;
+    color:white;
+    font-size: 16px;
+    
+}
+button:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+#plus img {
+    width: 47px;
+    animation: transform 2s linear ;
+    cursor: pointer;
+}
+#below_images img {
+    cursor: pointer;
+    animation: transform 3s linear;
+}
+#below_images img:hover {
+    transform: scale(1.12);
+}
+#below_images {
+    padding-bottom: 100px;
+}
